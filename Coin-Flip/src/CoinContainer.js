@@ -26,7 +26,7 @@ function CoinContainer(props) {
     <div className="CoinContainer">
       <h2>Let's flip a coin</h2>
       {currCoin}
-      <button onClick={flipcoin}>Flip me!</button>
+      <button onClick={flipcoin}>Flip Me!</button>
       <p>
         Out of {headCount + tailCount} flips , there have been {headCount} heads
         and {tailCount} tails.
